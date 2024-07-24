@@ -321,6 +321,8 @@ header {
 }
 
 .discover .discover_info a div {
+    height: 40px;
+    line-height: 20px;
     margin-top: 4px;
     overflow: hidden;
     display: -webkit-box;
@@ -377,8 +379,8 @@ header {
 }
 
 .hotTopics .hotTopics_info {
-    margin-bottom: 0.3rem;
-    padding-bottom: 0.3rem;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
     white-space: nowrap;
     overflow-x: auto;
 }
@@ -405,12 +407,13 @@ header {
     height: 22px;
     line-height: 22px;
     font-size: 14px;
-    white-space: break-spaces;
+    white-space: nowrap;
     overflow: hidden;
-    display: -webkit-box;
+    text-overflow: ellipsis;
+    /*     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
-    word-break: break-all;
+    word-break: break-all; */
 }
 
 
